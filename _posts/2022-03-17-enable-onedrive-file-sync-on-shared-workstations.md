@@ -5,7 +5,7 @@ date: 2022-03-17 09:30 -0400
 categories: Intune
 tags: intune onedrive
 ---
-### So you want OneDrive to worked for Shared multi-user devices?  
+### So you want OneDrive to work for Shared multi-user devices?  
 By default devices configured with a shared multi-user device profile will not be able to launch or access OneDrive via the desktop application.
 To enable this we will need to create a CSP that enables OneDrive sync which is required for the application to launch, Followed by a secondary CSP that forces the device to use MDM policy over local group policy.
 
@@ -13,7 +13,7 @@ To enable this we will need to create a CSP that enables OneDrive sync which is 
 Open Endpoint Manager portal and create a new Windows Configuration profile. Select "Template" and then "Custom".  
 
 Fill in your profile's details:
- ![Desktop View](/assets/post/OneDrive_Sync/name_template.png){: w="700" h="400" }{: .shadow }  
+ ![Desktop View](lostinthe-cloud.github.io/assets/post/OneDrive_Sync/name_template.png){: w="700" h="400" }{: .shadow }  
  
  Create a OMA-URI for our settings:  
 
