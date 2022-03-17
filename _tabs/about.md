@@ -1,8 +1,7 @@
 ---
-title: About
+title: About Me
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Hi I'm Kevin Odom, I spend my waking hours configuring and managing endpoints in corporate America. I have been doing this going on 5 years now.
