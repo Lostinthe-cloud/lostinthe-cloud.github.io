@@ -13,13 +13,13 @@ To enable this we will need to create a CSP that enables OneDrive sync which is 
 Open Endpoint Manager portal and create a new Windows Configuration profile. Select "Template" and then "Custom".  
 
 Fill in your profile's details:
- ![Desktop View](assets/post/OneDriveSync/nametemplate.png){: w="700" h="400" }{: .shadow }  
+ ![Desktop View](assets/img/nametemplate.png){: w="700" h="400" }{: .shadow }  
  
  Create a OMA-URI for our settings:  
 
  ``` ./Device/Vendor/MSFT/Policy/Config/System/DisableOneDriveFileSync (Integer = 0)```  
  
- ![Desktop View](assets/post/OneDriveSync/OMARURI.png){: w="700" h="400" }{: .shadow } 
+ ![Desktop View](/assets/img/OMARURI.png){: w="700" h="400" }{: .shadow } 
 
 Continue through the profile configuration and assign to your device group.  
 
@@ -30,7 +30,7 @@ Continue through the profile configuration and assign to your device group.
  
 ```./Device/Vendor/MSFT/Policy/Config/ControlPolicyConflict/MDMWinsOverGP (Integer = 1)```
 
-![Desktop View](assets/post/OneDriveSync/MDMWins.png){: w="700" h="400" }{: .shadow }  
+![Desktop View](/assets/img/MDMWins.png){: w="700" h="400" }{: .shadow }  
 
 Continue through the profile creation prompts and assign to your device group.  
 After a sync on the endpoints One Drive should now be launching properly on Shared Profile workstations.
