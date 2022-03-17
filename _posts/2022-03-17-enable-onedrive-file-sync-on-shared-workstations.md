@@ -13,7 +13,7 @@ To enable this we will need to create a CSP that enables OneDrive sync which is 
 Open Endpoint Manager portal and create a new Windows Configuration profile. Select "Template" and then "Custom".  
 
 Fill in your profile's details:
- ![Desktop View](_site/assets/post/OneDriveSync/nametemplate.png){: w="700" h="400" }{: .shadow }  
+ ![Desktop View](/assets/post/OneDriveSync/nametemplate.png){: w="700" h="400" }{: .shadow }  
  
  Create a OMA-URI for our settings:  
 
