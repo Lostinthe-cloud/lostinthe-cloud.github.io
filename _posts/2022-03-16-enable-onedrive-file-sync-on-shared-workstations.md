@@ -4,6 +4,7 @@ title: Enable OneDrive file sync on shared workstations
 date: 2022-03-16 017:30 -0400
 categories: Intune
 tags: intune onedrive
+image: /assets/img/OMARURI.png
 ---
 ### So you want OneDrive to work for Shared multi-user devices?  
 By default devices configured with a shared multi-user device profile will not be able to launch or access OneDrive via the desktop application.
