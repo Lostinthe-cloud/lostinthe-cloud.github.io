@@ -41,14 +41,14 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name:  Kevin Odom
-  email: Kevin@LostInCloud.com             # change to your email address
+  email: KevinOdomNC@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/LostIn_Mdm      # change to your twitter homepage
+    - https://twitter.com/KevinOdomNC      # change to your twitter homepage
     - https://github.com/lostinthe-cloud       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/kevnodom/
+    - https://www.linkedin.com/in/kevnodom
 
 google_site_verification:               # fill in to your verification string
 
