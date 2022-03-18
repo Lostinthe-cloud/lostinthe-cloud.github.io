@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enable OneDrive file sync on shared workstations
-date: 2022-03-17 017:30 -0400
+date: 2022-03-16 017:30 -0400
 categories: Intune
 tags: intune onedrive
 ---
