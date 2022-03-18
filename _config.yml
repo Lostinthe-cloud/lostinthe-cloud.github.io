@@ -23,7 +23,7 @@ timezone:
 
 title: Lost In Cloud                        # the main title
 
-tagline: Modern Endpoint Management   # it will display as the sub-title
+tagline: Modern Endpoint Management     # it will display as the sub-title  
 
 description: >-                        # used by seo meta and the atom feed
   Modern Endpoint Management guides utilizing Intune, SCCM, MECM, Azure.
@@ -48,7 +48,7 @@ social:
     - https://github.com/lostinthe-cloud       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/kevnodom/
 
 google_site_verification:               # fill in to your verification string
 
