@@ -20,12 +20,12 @@ In the past we had to deploy Hello utilizing a Key Trust model or Certificate. T
     b.	Create the Kerberos object  
     c.  Set Kerberos connection  
 2.	Configure Intune Policy  
-    NOTE – we will use configuration policies here so they are all in one spot, you may read documentation that WHB can be set under device enrollment and this is true, they do the same things, but you it puts config in two different places.  
+    ```*NOTE – we will use configuration policies here so they are all in one spot, you may read documentation that WHB can be set under device enrollment and this is true, they do the same things, but you it puts config in two different places.```  
     a.	Create a Windows Configuration Policy for Windows Hello for Business configuration.  
 	b.  Create a configuration profile for cloud trust setup    
 3.  Testing  
     a.  Target test group  
     b.  Test devices via force sync from client  
-    NOTE - Intune tries to notify devices of policy updates within 5 minutes of publishing, but if there is a delay or issue for any reason it may mean you have to wait 24 hours for the device to check-in, this way we force that update on the client. 
+    ```*NOTE - Intune tries to notify devices of policy updates within 5 minutes of publishing, but if there is a delay or issue for any reason it may mean you have to wait 24 hours for the device to check-in, this way we force that update on the client.```   
     c.	Verify status via logs  
 

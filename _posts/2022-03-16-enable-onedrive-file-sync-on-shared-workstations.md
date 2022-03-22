@@ -18,7 +18,7 @@ Fill in your profile's details:
  
  Create a OMA-URI for our settings:  
 
- ``` ./Device/Vendor/MSFT/Policy/Config/System/DisableOneDriveFileSync (Integer = 0)```  
+ ```./Device/Vendor/MSFT/Policy/Config/System/DisableOneDriveFileSync (Integer = 0)```  
  
  ![Desktop View](/assets/img/OMARURI.png){: w="700" h="400" }{: .shadow } 
 
