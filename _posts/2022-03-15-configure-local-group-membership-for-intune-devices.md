@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configure local group membership for Intune devices
-date: 2022-03-15 18:26 -0400
+date: 2022-03-15 18:27 -0400
 categories: Intune
 tags: intune 
 ---
