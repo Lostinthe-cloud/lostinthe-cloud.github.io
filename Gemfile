@@ -23,3 +23,6 @@ gem "webrick", "~> 1.7"
 
 # Jekyll Compose
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+#sitemap 
+gem 'jekyll-sitemap'

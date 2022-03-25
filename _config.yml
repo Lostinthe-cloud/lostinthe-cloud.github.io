@@ -190,9 +190,14 @@ exclude:
 
 jekyll-archives:
   enabled: [categories, tags]
+  enabled:
   layouts:
     category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+url: "https://lostin.cloud" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
