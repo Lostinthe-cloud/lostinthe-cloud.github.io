@@ -2,8 +2,8 @@
 layout: post
 title: Deploying Windows Hello Hybrid Cloud Trust
 date: 2022-03-23 020:00 -0400
-categories: Intune
-tags: intune azure hello identity aad passwordless  
+categories: Intune 
+tags: intune azure hello identity passwordless 
 image: /assets/img/HelloConfig.png
 ---
 
