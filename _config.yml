@@ -200,4 +200,11 @@ jekyll-archives:
 
 url: "https://lostin.cloud" # the base hostname & protocol for your site
 plugins:
-  - jekyll-sitemap
+  - jekyll-sitemap  
+
+  google_analytics:
+  id: 'G-B237K0TXDR'   # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
