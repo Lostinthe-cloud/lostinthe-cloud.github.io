@@ -8,6 +8,8 @@ image: /assets/img/HelloConfig.png
 ---
 
 ### Accessing on prem resources is easier than ever!
+----  
+
 This is now the default recomendation for any environment where certificate issuance is not needed.  
 The process we are outlining below will be for full AAD joined devices, if you are utilizing HAAD (Hybrid join), you can deploy this method via group policy for step 2.  
 
@@ -35,6 +37,8 @@ The process we are outlining below will be for full AAD joined devices, if you a
 
 
 #### Creating the Azure AD Kerberos Object  
+----  
+
 * From an elevated powershell prompt execute:  
 ```powershell  
 Install-Module -Name AzureADHybridAuthenticationManagement -AllowClobber
@@ -66,7 +70,8 @@ Set-AzureADKerberosServer -Domain $domain -UserPrincipalName $userPrincipalName 
 
 The above script is assuming that we are utilizing a form of modern auth. If you are not using modern auth refer to this [Microsoft documentation](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-passwordless-security-key-on-premises#example-1-prompt-for-all-credentials) for other example scripts.  
 
-#### Configuring Intune policies for enablement and Cloud Trust configuration  
+#### Configuring Intune policies for enablement and Cloud Trust configuration 
+---- 
 
  We will define a user group to target for our example "WHFBCloudTrustUsers". Both of the required policies will be assigned to this group.  
 
@@ -96,6 +101,7 @@ Now we will create another configuration profile this time choosing Templates > 
 * Once these policies are defined and assigned to our target group, we will do a force sync on a device to quickly retrieve the policies and test provisioning. A sign out and sign in on the test device should present the user with steps to configure biometrics if applicable, and configure a pin.  
 
 #### Validation 
+----
 
 If we hop over into event viewer and navigate down to Applications and Services Logs\Microsoft\Windows > User Device Registration we should be presented with the status's of the pre-req checks for the partial TGT before provisioning begins. This test has 3 states: Yes and No are self explanatory, Not tested is acceptable for devices that are AADJ only as this pre-req check is skipped for them as no line fo sight to the local DC is needed for signin.  
 

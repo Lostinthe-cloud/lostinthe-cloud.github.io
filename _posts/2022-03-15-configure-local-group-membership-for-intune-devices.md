@@ -7,6 +7,7 @@ tags: intune
 ---
 
 ### No more OMA-URI's and hunting for SID's...  
+----
 
 This may come as a shock, But adding, updating, or removing members of the local groups on devices was not always straight forward. There was a time when you had to hunt down the SID for the GA role, or AAD device admin role, as well as any others you wanted to define on the local level. After aquiring these you would need to create or modify an existing configuration and assign them to your device groups.  
 
@@ -19,6 +20,7 @@ In your Endpoint Management portal navigate to "Endpoint Security in the left pa
 ![Desktop View](/assets/img/endpointsecurity1.png){: w="700" h="400" }  
 
 ### Creating the policy  
+----
 
 You will begin by creating a new policy selecting your platform as Windows 10 and later and selecting "Local user group membership"  
 
